@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from './services/axios';
 
-import Header from './components/Header/Header';
+import Header from './components/Header';
 import Summary from './components/Summary';
 import Buttons from './components/Buttons';
-import List from './components/List/List';
+import List from './components/List';
 
 import { YEARS, MONTHS } from './config/dates';
 
